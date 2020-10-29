@@ -1,0 +1,97 @@
+﻿body {
+    background-color: lightblue;
+    font-family: Tahoma;
+    color: whitesmoke;
+    background: url("../img/mtl5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: gold;
+    text-shadow: 2px 2px black;
+}
+
+td {
+    vertical-align: top;
+    
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+#billDisplay {
+    position: fixed;
+    top: 29%;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    /*set to a negative number 1/2 of your height*/
+    margin-left: -15em;
+    /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    visibility: hidden;
+    color: black;
+}
+
+
+input[type=text],input[type=number]{
+    padding: 0.3em;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+}
+
+#cmbHotel,#cmbRoom{
+    padding: 0.3em;
+    margin-bottom: 2em;
+}
+.check{
+   margin-bottom: 0.5em;
+}
+
+
+
+.button{
+    -moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		background-color: transparent;
+		border: 0;
+		border-radius: 0;
+		box-shadow: inset 0 0 0 2px #ffffff;
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 0.8em;
+		font-weight: 600;
+		height: 3.5em;
+		letter-spacing: 0.25em;
+		line-height: 3.5em;
+		padding: 0 1.75em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+        white-space: nowrap;
+        margin: 1.75em;
+}
+.button:hover,.button:active {
+    box-shadow: inset 0 0 0 2px gold;
+    color: gold;
+    
+}
+
+
+
